@@ -1,0 +1,46 @@
+/* Estilo general del body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Estilo para la tabla */
+table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 30px 20px;
+}
+
+/* Estilo para cada celda de producto */
+td {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+/* Efecto hover para cada producto */
+td:hover {
+    transform: scale(1.05);
+}
+
+/* Imágenes de productos */
+td img {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Nombre del producto */
+td h4 {
+    margin: 0;
+    color: #c2185b;
+    font-size: 1.1em;
+}
+
